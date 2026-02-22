@@ -1,0 +1,12 @@
+nome = str(input("Digite seu nome e sobrenome: ")).strip()
+nomeM = nome.upper()
+nomemi = nome.lower()
+cont = len(nome) - nome.count(" ")
+contp = nome.split()
+contpp = len(contp[0])
+#print(f"Em Maiusculo: {nomeM}\nEm Minusculo: {nomemi}\nLetras: {cont}\nPrimeiro Nome:{contpp}")
+#formula do guanabara abaixo
+print(f'Em maiusculo {nome.upper()}')
+print(f'Em minusculo {nome.lower()}')
+print(f'Seu nome tem {len(nome) - nome.count(' ')} letras')
+print(f'Seu primeiro nome tem {nome.find(' ')} letras')

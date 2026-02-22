@@ -1,0 +1,5 @@
+nome = input('\033[1;31mOla, qual seu nome:\033[m ')
+dia = input('\033[1;31mqual seu dia de nascimento:\033[m ')
+mes = input('\033[1;31mqual seu mes de nascimento:\033[m ')
+ano = input('\033[1;31mqual seu ano de nascimento:\033[m ')
+print('\033[1;30;47mOla' , nome , 'prazer em te conhecer! Você nasceu no dia' , dia , 'de' , mes , 'de' , ano , ', Correto?\033[m')

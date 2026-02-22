@@ -1,0 +1,2 @@
+valor = float(input('Digite o valor em metro: '))
+print(f'Convertendo o valor digitado para centímetros o resultado será: {valor * 100:.2f} \nJá convertendo para milímetros o resultado será: {valor * 1000:.2f}')
