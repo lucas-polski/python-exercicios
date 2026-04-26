@@ -180,5 +180,6 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 /Mundo_01/.idea
+/Mundo_02/.idea
 /.idea
 
